@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#Randomer").on("click",function(){sprite.X=64*Math.round(20*-Math.random()),sprite.Y=64*Math.round(20*-Math.random()),ctx.drawImage(ssheet,sprite.X,sprite.Y)})});
